@@ -1,0 +1,130 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: linear-gradient(#250101,black);
+    text-align: center;
+}
+
+.summary{
+    background-image: linear-gradient(black,#1a1a1a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:110vh;
+}
+
+.summaryBox{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c35630;
+    text-align: center;
+    color:#f7e6e6;
+    width:auto;
+    font-size: 18px;
+    line-height: 1.8em;
+    max-width: 750px;
+    border-radius: 20px;
+    padding-inline: 5px;
+    box-shadow: 0px 0px 10px #c35630;
+    margin-inline: 20px;
+}
+
+.chapters{
+    background-image: linear-gradient(#1a1a1a,#111,#111);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+}
+
+.chaptersBox{
+    background-color: #1a1a1a;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    height: auto;
+    margin-bottom: 200px;
+    box-shadow: 2px 0px 25px black;
+}
+
+.chapter{
+    font-size: 20px;
+    height:50px;
+    margin-block:25px;
+    margin-inline: 20px;
+    width:500px;
+    cursor: pointer;
+    background-color: #d97706;
+    border: 1px solid #d97706;
+    box-shadow: 0px 0px 5px #d97706;
+    transition: background-color 0.5s;
+    color: #f7e6e6;
+    text-shadow: 0px 0px 5px #f7e6e6;
+    font-family: 'Cinzel', serif;
+}
+
+.chapter:hover{
+    background-color: #d9770600;
+}
+
+.footer{
+    padding-top: 50px;
+    background-image: linear-gradient(#111,black,black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.footer p{
+    font-family: 'Cinzel',serif;
+    font-size: 15px;
+}
+
+.separator1{
+    align-self: center;
+    background-image: linear-gradient(90deg,#c3573000,#c35630,#c3573000);
+    height:2px;
+    width:300px;
+    margin-bottom: 150px;
+}
+
+.separator2{
+    align-self: center;
+    background-image: linear-gradient(90deg,#c3573000,#c35630,#c3573000);
+    height:2px;
+    width:300px;
+    margin-top: 200px;
+}
+
+h1,h2{
+    color:#d97706;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 72px;
+}
+
+h2{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+h3{
+    font-size:28px;
+    font-family: 'Cinzel', serif;
+    color:#c35630;
+}
+
+p{
+    font-family: 'Lora', serif;
+}
