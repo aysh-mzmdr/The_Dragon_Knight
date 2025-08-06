@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/The_Dragon_Knight',
+  base: '/The_Dragon_Knight/',
   plugins: [react()],
 })

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://aysh-mzmdr.github.io/The_Dragon_Knight/",
+  "homepage": "https://aysh-mzmdr.github.io/The_Dragon_Knight",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
