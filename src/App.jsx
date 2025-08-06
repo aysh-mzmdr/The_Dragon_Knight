@@ -2,15 +2,15 @@ import Home from "./Home.jsx"
 import Chapter1 from "./Chapters/Chapter1.jsx"
 
 import ScrollToTop from "./ScrollToTop.jsx"
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
+import { HashRouter as Router,Routes,Route } from "react-router-dom"
 
 function App() {
   return(
     <Router>
       <ScrollToTop/>
       <Routes>
-        <Route path="/The_Dragon_Knight/" element={<Home/>}/>
-        <Route path="/The_Dragon_Knight/chapter1" element={<Chapter1/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/chapter1" element={<Chapter1/>}/>
       </Routes>
     </Router>
   )
