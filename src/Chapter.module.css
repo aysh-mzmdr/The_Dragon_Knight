@@ -28,8 +28,7 @@
 }
 
 .book{
-    width:auto;
-    max-width: 500px;
+    width:70vw;
     color:white;
     padding: 20px;
     background-color: #111;
