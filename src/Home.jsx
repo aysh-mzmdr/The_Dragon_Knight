@@ -24,7 +24,7 @@ function Home() {
       <div className={style.chapters}>
         <h2>Chapters</h2>
         <div className={style.chaptersBox}>
-          <button className={style.chapter} onClick={()=> navigate("/chapter1")}>Chapter 1: Vittrahantas</button>
+          <button className={style.chapter} onClick={()=> navigate("/chapter1",{state:{path:"1"}})}>Chapter 1: Vritrahantas</button>
         </div>
       </div>
 

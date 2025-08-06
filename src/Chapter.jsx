@@ -1,7 +1,7 @@
 import { useState } from "react"
 import style from "./Chapter.module.css"
 
-function Chapter(){
+function Chapter(props){
 
     const[size,setSize]=useState(18)
     const[backgroundcolor,setBackgroundcolor]=useState("#111")
@@ -12,8 +12,8 @@ function Chapter(){
     return(
         <>
             <div className={style.head}>
-                <h1>Chapter 1:</h1>
-                <h2 className={style.subheading}>Vittrahantas</h2>
+                <h1>Chapter {props.chapterNo}:</h1>
+                <h2 className={style.subheading}>{props.chapterName}</h2>
             </div>
 
             <div className={style.bookBackground}>
@@ -32,13 +32,7 @@ function Chapter(){
                         </div>
                     </div>
                     <div style={{fontSize:`${size}px`,color:`${fontcolor}`,borderTop:`1px solid ${bordercolor}`}} className={style.readingArea}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi repellendus velit, architecto, ea deleniti asperiores reprehenderit perspiciatis obcaecati amet fuga in, quibusdam provident adipisci ratione. Incidunt nihil labore voluptatem!</p>
+                        {props.chapter}
                     </div>
                 </div>
             </div>
