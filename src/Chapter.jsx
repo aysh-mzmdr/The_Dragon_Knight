@@ -12,7 +12,7 @@ function Chapter(props){
     return(
         <>
             <div className={style.head}>
-                <h1>Chapter {props.chapterNo}:</h1>
+                <h1 className={style.heading}>Chapter {props.chapterNo}:</h1>
                 <h2 className={style.subheading}>{props.chapterName}</h2>
             </div>
 

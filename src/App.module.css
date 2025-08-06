@@ -58,7 +58,9 @@
     height:50px;
     margin-block:25px;
     margin-inline: 20px;
-    width:500px;
+    padding-inline: 20px;
+    width:auto;
+    max-width:750px;
     cursor: pointer;
     background-color: #d97706;
     border: 1px solid #d97706;
