@@ -9,8 +9,8 @@ function App() {
     <Router>
       <ScrollToTop/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/chapter1" element={<Chapter1/>}/>
+        <Route path="/The_Dragon_Knight/" element={<Home/>}/>
+        <Route path="/The_Dragon_Knight/chapter1" element={<Chapter1/>}/>
       </Routes>
     </Router>
   )
