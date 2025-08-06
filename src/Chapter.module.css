@@ -28,7 +28,8 @@
 }
 
 .book{
-    width:70vw;
+    width:auto;
+    width:700px;
     color:white;
     padding: 20px;
     background-color: #111;
@@ -36,6 +37,7 @@
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -99,4 +101,24 @@
 .footer p{
     font-family: 'Cinzel',serif;
     font-size: 15px;
+}
+
+
+@media only screen and (max-width:768px){
+    .book{
+        width:90vw;
+        color:white;
+        padding: 20px;
+        background-color: #111;
+    }
+}
+
+@media only screen and (max-width:384px){
+    .navbar{
+        display: flex;
+        justify-content: left;
+    }
+    .theme{
+        margin-top: 20px;
+    }
 }
