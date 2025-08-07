@@ -29,7 +29,7 @@ function Home() {
       </div>
 
       <div className={style.footer}>
-        <p>© 2025 The Dragon Knight. All Rights Reserved.</p>
+        <p style={{textAlign:"center"}}>© 2025 The Dragon Knight. All Rights Reserved.</p>
         <p>A story by aysh_mzmdr</p>
       </div>
     </>

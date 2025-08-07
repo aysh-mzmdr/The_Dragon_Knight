@@ -101,12 +101,14 @@
 .footer p{
     font-family: 'Cinzel',serif;
     font-size: 15px;
+    text-align: center;
+    margin:0 auto;
 }
 
 
 @media only screen and (max-width:768px){
     .book{
-        width:90vw;
+        width:85vw;
         color:white;
         padding: 20px;
         background-color: #111;
