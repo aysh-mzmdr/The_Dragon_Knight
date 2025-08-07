@@ -78,7 +78,7 @@ function Chapter1(){
 
             <p>Prajjwal (leaving) : “Hope you don't disappoint your family on your very first duty.”</p>
 
-            <p>As his father left, and Advijay shouted in a low voice and jumped in the air, and started to play with his staff. Prajjwal hadn't actually left the place. He was half-turned, looking at his son, with a smile on his face.</p>
+            <p>As his father left, Advijay shouted in a low voice and jumped in the air, and started to play with his staff. Prajjwal hadn't actually left the place. He was half-turned, looking at his son, with a smile on his face.</p>
         </>
     )
 
